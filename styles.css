@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body{
+    font-family : 'Quicksand', sans-serif;
+}
+
+
+
+
+
+textarea{
+    height : 100px;
+    width : 400px;
+    display : block;
+    box-shadow: 0 0 2.5px 1px;
+    padding : 1rem;
+    border-radius: 0.5rem;
+    margin : 1rem;
+}
+
+
+
+
