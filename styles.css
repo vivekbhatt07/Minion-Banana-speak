@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
 :root{
-    --primary-color : #fde047;
+    --primary-color : #0e7490;
+    --yellow-color : #facc15;
 }
 
 
@@ -16,8 +18,10 @@ textarea{
     display : block;
     box-shadow: 0 0 2.5px 1px;
     padding : 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0 0.5rem;
     margin : 1rem;
+    display : block;
+    margin : 1rem auto;
 }
 
 
@@ -27,13 +31,30 @@ textarea{
    width : 400px;
    margin : 1rem;
    padding : 1rem;
-   border-radius: 0.5rem;
+   border-radius: 0 0.5rem;
    box-shadow: 0 0 2.5px 1px;
    background-color: white;
+   display : block;
+   margin : 1rem auto;
+}
+
+div{
+    padding : 1rem;
 }
 
 
 .txtcenter{
     text-align : center;
+    color : var(--yellow-color);
 }
 
+
+#btn-translate{
+    padding : 0.5rem 1rem;
+    display : block;
+    margin : auto;
+    font-family: 'Short Stack', cursive;
+    background-color: var(--yellow-color);
+    box-shadow : 0 0 1.5px 1px yellowgreen;
+    border-radius: 0.3rem;
+}
