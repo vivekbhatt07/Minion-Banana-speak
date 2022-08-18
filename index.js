@@ -11,7 +11,6 @@ function addTextUrl(text) {
 }
 
 function catchError(error) {
-    console.log("Error Occured ! ", error);
     alert(`Something wrong with server ! try again after sometime.`)
 }
 

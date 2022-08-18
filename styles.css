@@ -57,4 +57,10 @@ div{
     background-color: var(--yellow-color);
     box-shadow : 0 0 1.5px 1px yellowgreen;
     border-radius: 0.3rem;
+
+}
+
+
+button {
+    cursor: pointer;
 }
